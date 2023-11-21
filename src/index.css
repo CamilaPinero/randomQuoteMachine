@@ -26,6 +26,14 @@
 	margin-right: 15px;
 }
 
+footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+}
+
 a {
 	font-weight: 500;
 	color: #213547;
@@ -37,8 +45,10 @@ a:hover {
 
 body {
 	margin: 0;
+	height: 100vh;
 	display: flex;
-	place-items: center;
+	flex-direction: column;
+	justify-content: center;
 	min-width: 320px;
 	min-height: 100vh;
 }
